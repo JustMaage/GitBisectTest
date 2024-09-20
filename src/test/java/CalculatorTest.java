@@ -34,4 +34,13 @@ class CalculatorTest {
         assertEquals(expected, actual, "Regular multiplication should work");
     }
 
+    @Test
+    void testSubtract_FiveMinusThreeEqualsTwo() {
+        int expected = 2;
+
+        int actual = calculator.subtract(5, 3);
+
+        assertEquals(expected, actual, "Regular subtraction should work");
+    }
+
 }
