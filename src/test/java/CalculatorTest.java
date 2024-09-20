@@ -14,13 +14,12 @@ class CalculatorTest {
     }
 
     @Test
-    void testSum_OnePlusOneEqualsTwo() {
+    void testAdd_OnePlusOneEqualsTwo() {
         //assign
         int expected = 2;
-        int actual = -1;
 
         //act
-        actual = calculator.sum(1, 1);
+        int actual = calculator.add(1, 1);
 
         //assert
         assertEquals(expected, actual, "Regular sum should work");
