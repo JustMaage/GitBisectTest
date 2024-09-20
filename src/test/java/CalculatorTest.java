@@ -25,4 +25,13 @@ class CalculatorTest {
         assertEquals(expected, actual, "Regular sum should work");
     }
 
+    @Test
+    void testMultiply_TwoTimesTwoEqualsFour() {
+        int expected = 4;
+
+        int actual = calculator.multiply(2, 2);
+
+        assertEquals(expected, actual, "Regular multiplication should work");
+    }
+
 }
